@@ -1,6 +1,17 @@
 h1 {
-    color: gray;
+    color: blue;
+    font-size: 56px;
+    font-family: 'Amatic SC', cursive;
     text-align: center;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #000 url("https://venturebeat.com/wp-content/uploads/2018/03/mario_map_narrow.jpg?fit=578%2C323&strip=all")
+              scroll;
 }
 
 button {
@@ -8,4 +19,20 @@ button {
     border-radius: 4px;
     background-color: gray;
     color: white;
+}
+
+#todo-list {
+    background-color: #DDDDDD;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+p::first-letter {
+    font-size: 200%;
+}
+
+h1::after {
+    /* content: url("../img.png"); */
 }
